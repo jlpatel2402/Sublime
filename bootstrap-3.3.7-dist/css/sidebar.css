@@ -1,0 +1,50 @@
+
+nav{
+	height: 30px;
+	width: auto;
+	background-image: linear-gradient(orange,white,green); 
+	border-bottom-left-radius:40px;
+	border-bottom-right-radius:40px; 
+}
+.fa-phone{
+	float:right; 
+	margin-right:25px;
+}
+.dropdown{
+	width: 100px;
+	height: 40px;
+	background-color:orange;
+	color: white;
+	margin-left: 80px; 
+}
+p{
+	height: 20px;
+	width: 20px;
+
+}
+.content{
+	height: 100px;
+	width: 40px;
+	background-color: orange;
+    display: none;
+    transition: height2s; 
+}
+.sidebar{
+	position: fixed;
+margin:0px	;
+width: 300px;
+height: auto;
+color: white;
+background-image:  linear-gradient(to right,#521a9f,#9369c6);
+padding-left:0px; 
+padding-top: 35px;
+border-top-width: 1px; 
+}
+body{
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+

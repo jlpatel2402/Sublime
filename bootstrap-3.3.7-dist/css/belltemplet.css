@@ -1,0 +1,87 @@
+nav{
+	height:65px;
+	width:auto;
+	background-color:#1a9db7;
+    position: fixed;
+    right:0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+}
+body{
+	margin: 0px;
+}
+img{
+	height: 40px;
+}
+.element{
+	color: white;
+	padding-left:37px;
+	float: left;
+	margin-top: 21px;
+}
+.nav2{
+	margin-top: 1px;
+}
+.ico{
+	display: inline;
+	color:white;
+	padding-right: 20px;
+}
+.fa-rocket{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.fa-envelope{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.fa-bell{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.fa-database{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.fa-cutlery{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.fa-tachometer{
+	background-color:#1a9db7;
+	border-radius: 50%; 
+}
+.col-md-4{
+	display: inline;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+.dropdown{
+	display: inline;
+	margin: 0px;	
+	padding-left: 0px;
+}
+.dropdown1{
+	position: absolute;
+	min-width: 100px;
+	margin-top: 50px;
+	margin-left: 21px;
+	margin-right: -25px;
+	display: none;
+	z-index: 1;
+	background-color: white;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.dropdown a{
+	text-decoration: none;
+	color:black; !important;
+}
+.dropdown:hover .dropdown1{
+	display: block;
+}
+.dropdown1 a{
+	display: block;
+}
